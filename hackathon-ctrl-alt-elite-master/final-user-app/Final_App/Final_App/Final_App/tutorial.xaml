@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#e9c46a"
+             x:Class="Final_App.tutorial">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <Label Text="Welcome To Surveillance-Camera! " TextColor="#264653" FontSize="20" HorizontalTextAlignment="Center" />
+            <Label/>
+            <Label/>
+            <Image x:Name="toureImg" />
+            <Label/>
+            <Label/>
+            <Button Text="Take a tour" Clicked="StartTour" BackgroundColor="#e9c46a" FontSize="15" FontAttributes="Bold"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

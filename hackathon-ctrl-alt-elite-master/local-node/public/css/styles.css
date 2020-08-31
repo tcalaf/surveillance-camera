@@ -1,0 +1,33 @@
+body {
+    font-family: "Lato", "Helvetica", Helvetica, sans-serif;
+    font-size: 1.5em;
+    padding: 20px;
+    letter-spacing: 1px;
+}
+
+details {
+    margin: 1rem;
+    outline: none;
+}
+
+details:active, details:focus {
+    outline: 0;
+    border: none;
+    -moz-outline-style: none;
+}
+
+summary {
+    font-weight: bold;
+}
+
+summary:active, summary:focus {
+    outline: 0;
+    border: none;
+    -moz-outline-style: none;
+}
+
+.imageWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

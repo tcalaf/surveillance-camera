@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.deploySubpath": ".",
+    "appService.defaultWebAppToDeploy": "/subscriptions/365d7c65-3473-4303-aad0-0e284a69194b/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/ctrlaltelite21"
+}

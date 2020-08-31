@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#E9C46A"
+             Padding="20,40,10,10"
+             x:Class="Final_App.tutorial2">
+    <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <StackLayout VerticalOptions="FillAndExpand">
+            <Label x:Name="content" TextColor="#264653" FontSize="20" />
+            <Label/>
+            <Label/>
+            <Label x:Name="content2" TextColor="#264653" FontSize="20" />
+        </StackLayout>
+        <Image x:Name="tutorial" VerticalOptions="FillAndExpand"/>
+        <Button Text="Start" Clicked="Button_Clicked" BackgroundColor="#E9C46A" TextColor="#264653" FontSize="15" FontAttributes="Bold"/>
+    </StackLayout>
+
+</ContentPage>

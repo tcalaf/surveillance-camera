@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="no-js"> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Ceva Frumos</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/7.16.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <body style="margin-left: 20px;">
+        <h1>Sunt in public</h1>
+        <form onsubmit="uploadFile()">
+            <input type="file" id="myFile" name="filename">
+            <input type="submit" >
+          </form>
+    </body>
+
+    <script>
+        function uploadFile(e) {
+           
+            console.log("S-a uploadat un fisier")
+            alert("the form was submitted")
+            console.log(e)
+            e.preventDefault()
+        }
+
+    </script>
+</html>

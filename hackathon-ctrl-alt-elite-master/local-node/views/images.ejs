@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index page</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+        <div>
+            <% links.forEach(function(link) { %> 
+                <div class="imageWrapper">
+                      <img src="<%= link.name %>" alt="face image">
+                      <p><%= link.timestamp %> </p>
+                      <details>
+                        <summary>Raw Face Attributes</summary>
+                        <p><%= link.attributes %> </p>
+                      </details>
+                </div>
+            <% }); %> 
+        </div>
+      </body>
+</html>

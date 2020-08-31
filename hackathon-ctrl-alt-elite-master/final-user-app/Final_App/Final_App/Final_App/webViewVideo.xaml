@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             BackgroundColor="#e9c46a"
+             x:Class="Final_App.webViewVideo">
+    <ContentPage.Content>
+
+
+        <StackLayout>
+            <Button x:Name="refresh" Text="Refresh" Clicked="refresh_Clicked_1" BackgroundColor="#e9c46a" TextColor="#264653"/>
+            <WebView x:Name="webView" WidthRequest="1000" HeightRequest="1000" 
+             Navigating="webView_Navigated"  />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

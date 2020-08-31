@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             xmlns:windows="clr-namespace:Xamarin.Forms.PlatformConfiguration.WindowsSpecific;assembly=Xamarin.Forms.Core"
+            windows:TabbedPage.HeaderIconsEnabled="true"
+             xmlns:local="clr-namespace:Final_App"
+             mc:Ignorable="d"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            BackgroundColor="#2a9d8f"
+            NavigationPage.HasNavigationBar="False"
+             x:Class="Final_App.MainPage">
+
+    <windows:TabbedPage.HeaderIconsSize>
+        <Size>
+            <x:Arguments>
+                <x:Double>24</x:Double>
+                <x:Double>24</x:Double>
+            </x:Arguments>
+        </Size>
+    </windows:TabbedPage.HeaderIconsSize>
+
+    <local:notificationsList Title="History" Icon="imgTEST.png" />
+
+    <local:webViewVideo Title="Video" Icon="imgTEST2.png" />
+    <local:webViewImages Title="Images" Icon ="imgTEST6.png"/>
+    <NavigationPage Title="Settings" Icon="imgTEST3.png">
+        <x:Arguments>
+             <local:SettingsPage />
+        </x:Arguments>
+    </NavigationPage>
+
+
+</TabbedPage>
