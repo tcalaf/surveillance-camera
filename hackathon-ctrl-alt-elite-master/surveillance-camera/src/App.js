@@ -53,7 +53,7 @@ function App() {
 
   function processImage(blob) {
     
-    var subscriptionKey = "f20fb8676e524c258c179ae35ddd5070";
+    var subscriptionKey = "";
 
     var uriBase =
         "https://faceservicetudor.cognitiveservices.azure.com/face/v1.0/detect";
